@@ -10,4 +10,5 @@ dependencies:
   - scipy         # pulls libopenblas & lapack automatically
   - matplotlib
   - mlxtend
+  - joblib
   #  ↳ add any other libs you actually import in the notebook

@@ -1,0 +1,14 @@
+name: kdd-env
+channels:
+  - conda-forge
+dependencies:
+  - python = 3.11
+  - numpy
+  - pandas
+  - scikit-learn = 1.4.2
+  - imbalanced-learn = 0.12.4
+  - scipy         # pulls libopenblas & lapack automatically
+  - matplotlib
+  - mlxtend
+  - joblib
+  #  ↳ add any other libs you actually import in the notebook
